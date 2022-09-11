@@ -1,0 +1,106 @@
+ /* NAVBAR */
+ .navbar .nav-link {
+     color: rgb(255, 255, 255);
+     opacity: 0.7
+ }
+
+ .navbar .navbar-brand {
+     color: white;
+     margin-left: 2rem;
+ }
+
+ ul {
+     margin-right: 2rem;
+ }
+
+
+ .nav-link:hover {
+     color: white !important;
+     opacity: 1;
+     transition: all 1s;
+ }
+
+
+ /***** BANNER ****/
+
+ .banner {
+     background-image: url("../img/banner.jpeg");
+     background-position: center;
+     background-repeat: no-repeat center center;
+     background-size: cover;
+
+     height: 100vh;
+     padding-top: 20%;
+     color: red;
+ }
+
+ /**** SERVICES ****/
+ .circle {
+     display: inline-block;
+     border-radius: 50%;
+     width: 150px;
+     margin: auto;
+     height: 150px;
+     color: #fff;
+     background-color: #dc3545;
+ }
+
+ #services i {
+     position: relative;
+     top: 30px;
+ }
+
+ .title {
+     font-size: 2rem;
+     font-weight: 500;
+ }
+
+ #services {
+     padding: 2rem;
+ }
+
+ /**** PORTFOLİO ****/
+ #portfolio .row {
+     /* border: 1px solid red; */
+ }
+
+ #portfolio img {
+     object-fit: cover;
+ }
+
+ /**** OUR TEAM ****/
+ #our-team img {
+     width: 250px;
+     border: 10px solid rgb(173, 160, 160);
+     border-radius: 50%;
+ }
+
+
+ .social {
+     font-size: 1.3rem;
+     /* border: 1px solid red; */
+     color: white;
+     background-color: rgb(107, 97, 97);
+     border-radius: 50%;
+     width: 40px;
+     height: 40px;
+     display: inline-block;
+     line-height: 40px;
+ }
+
+ #our-team a:hover {
+     color: white !important;
+ }
+
+ /*BRANDS*/
+ #brands img {
+     width: 150px;
+ }
+
+ /*CONTACT*/
+ #contact {
+     background-image: url(../img/map.jpeg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
